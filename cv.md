@@ -5,8 +5,10 @@
 * Phone: +79086698600
 * Email: nuts08air@inbox.ru
 * GitHub: NataPonam
+
 ### About me:
 Hello! I'm Natalya, a beginner frontend developer. After graduating from a web design course, I became interested in web development, so much so that I can’t stop writing code now. I enjoy solving complex tasks and implementing interesting solutions through code.
+
 ### Skills:
 * HTML
 * CSS
@@ -14,9 +16,11 @@ Hello! I'm Natalya, a beginner frontend developer. After graduating from a web d
 * Git
 * Figma
 * Photoshop
+
 ### Courses:
 * Yandex Practicum (in progress)
 * Rolling Scopes School (in progress)
 * Training in youtube/articles (always)
+
 ### Projects:
 https://nataponam.github.io/mesto/index.html
