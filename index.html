@@ -1,17 +1,89 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>CV</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Natalya Ponamarenko</title>
 </head>
 
-<body>
-  <h1>Заголовок</h1>
-
+<body class="body">
+  <header class="header">
+    <img class="avatar" src="./img/desert.jpg" alt="photo dessert">
+    <div class="header__wrapper">
+      <h1 class="name">Natalya Ponamarenko</h1>
+      <h2 class="profession">Front-end Developer</h2>
+    </div>
+    <ul class="list__contacts">
+      <li>Location: Russia, Irkutsk (GMT+8)</li>
+      <li>Phone: +79086698600</li>
+      <li>Email: nuts08air@inbox.ru</li>
+      <li>GitHub: NataPonam</li>
+    </ul>
+  </header>
+  <main class="main">
+    <section class="section">
+      <h3 class="title">About me:</h3>
+      <p class="text">Hello! I'm Natalya, a beginner frontend developer. After graduating from a web design course, I
+        became interested in web development, so much so that I can’t stop writing code now. I enjoy solving complex
+        tasks and implementing interesting solutions through code.</p>
+    </section>
+    <section class="section">
+      <h3 class="title">Education:</h3>
+      <p class="text">Irkutsk University</p>
+      <p class="text">English: A2</p>
+    </section>
+    <section class="section">
+      <h3 class="title">Skills:</h3>
+      <ul class="list__skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>Git</li>
+        <li>Figma</li>
+        <li>Photoshop</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h3 class="title">Courses:</h3>
+      <ul class="list__courses">
+        <li>Yandex Practicum (in progress)</li>
+        <li>Rolling Scopes School (in progress)</li>
+        <li>Training in youtube/articles (always)</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h3 class="title">Code Example:</h3>
+      <p class="text">
+      <pre>
+          <code>
+buttonOpenPopupEditProfile.addEventListener('click', function () {
+  openPopup(popupElemProfile);
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileInfo.textContent;
+});
+</code>
+        </pre>
+      </p>
+    </section>
+    <section class="section">
+      <h3 class="title">Projects:</h3>
+      <a href="https://nataponam.github.io/mesto/index.html"
+        class="link">https://nataponam.github.io/mesto/index.html</a>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="author">&copyNataPonamarenko 2022</p>
+    <a href="https://github.com/NataPonam" class="pageOnGitHub">
+      <img class="logo__gh" alt="logo Git Hub">
+    </a>
+    <a href="https://rs.school/js/" class="link__school">
+      <img class="school" alt="logo RS School">
+    </a>
+  </footer>
 </body>
 
 </html>

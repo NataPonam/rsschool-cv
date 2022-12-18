@@ -1,5 +1,5 @@
 # Natalya Ponamarenko
-## Junior Frontend-developer
+## Front-end Developer
 ### Contacts:
 * Location: Russia, Irkutsk (GMT+8)
 * Phone: +79086698600
@@ -21,6 +21,15 @@ Hello! I'm Natalya, a beginner frontend developer. After graduating from a web d
 * Yandex Practicum (in progress)
 * Rolling Scopes School (in progress)
 * Training in youtube/articles (always)
+
+### Code Example:
+<code>
+buttonOpenPopupEditProfile.addEventListener('click', function () {
+  openPopup(popupElemProfile);
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileInfo.textContent;
+});
+</code>
 
 ### Projects:
 https://nataponam.github.io/mesto/index.html
