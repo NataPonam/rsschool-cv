@@ -1,3 +1,3 @@
 # rsschool-cv
-https://NataPonam.github.io/rsschool-cv/cv/index.html
+https://nataponam.github.io/rsschool-cv/index.html
 
