@@ -28,46 +28,194 @@
   font-display: swap;
 }
 
-h1,
-h2,
-h3 {
+ul {
   margin: 0;
-  padding: 0;
+  padding-left: 20px;
+}
+
+pre {
+  margin: 0;
 }
 
 .body {
+  max-width: 1280px;
+  margin: 0 auto;
   background-color: rgb(245, 245, 245);
   font-family: 'Montserrat', Verdana, sans-serif;
-
   font-weight: 400;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
-}
-
-.avatar {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
 }
 
 .header {
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: #B397B8;
-  color: #fff;
   width: 100%;
 }
 
+.menu__list {
+  margin: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 0 70px;
+  background-color: #BED9B2;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: white;
+}
+
+.menu__link:hover {
+  color: #59405E;
+  transition: 2.5s;
+}
+
+
+.right-side__profile {
+  padding: 80px 40px;
+}
+
+.title {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 25px;
+  color: #59405E;
+}
+
+.subtitle {
+  padding: 0;
+  padding-bottom: 5px;
+  margin: 0;
+  font-size: 16px;
+  color: #59405E;
+  font-weight: 600;
+}
+
+.text_education {
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin: 0;
+  color: #59405E;
+}
+
+.text {
+  font-size: 16px;
+  margin: 0;
+}
+
+li {
+  font-size: 16px;
+  margin: 0;
+}
+
+.avatar {
+  width: 426px;
+  height: 250px;
+}
+
 .header__wrapper {
-  padding: 0 50px;
+  padding: 0;
+  background-color: rgb(245, 245, 245);
+}
+
+.wrap {
+  border: 20px solid #BED9B2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .list__contacts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 24px;
   color: #59405E;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2.4fr;
+  flex-direction: row;
+}
+
+.name {
+  margin: 0;
+  font-size: 45px;
+  color: #B399B9;
+}
+
+.profession {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 30px;
+  color: #59405E;
+  font-weight: 300;
+}
+
+/*левая сторона*/
+.left-side {
+  background-color: #B399B9;
+  margin: 0;
+}
+
+/*правая сторона*/
+.right-side {
+  padding-bottom: 20px;
+}
+
+.section {
+  padding: 0 40px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  border: 20px solid #BED9B2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  color: #B399B9;
+
+}
+
+.git-hub-link {
+  display: flex;
+  align-items: center;
+}
+
+.pageOnGitHub {
+  text-decoration: none;
+  color: #B399B9;
+}
+
+.pageOnGitHub:hover {
+  color: #59405E;
+  transition: 2s;
+}
+
+
+.logo__git-hub {
+  padding-right: 10px;
+  height: 35px;
+
+}
+
+.img__rs {
+  height: 35px;
 }
